@@ -1,6 +1,31 @@
-from selenium import webdriver
+los = [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z",
+]
 
-browser = webdriver.Chrome()
+print(los[:3])
 
-url = "https://karirpurwokerto.id/lowongan-bpr-bank-surya-yudha-purbalingga-terbaru/"
-browser.get(url)

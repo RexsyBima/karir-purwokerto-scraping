@@ -5,11 +5,8 @@ from datetime import datetime
 @dataclass
 class Job:
     title: str  # v
-    description: str
+    description: str  # v
     img_link: str  # v
-    slug_url: str
+    slug_url: str  # v
+    requirements: list  # v
     date: datetime = datetime.now()
-
-
-def foo(a, b, c, d):
-    pass
